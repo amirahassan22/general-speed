@@ -1,0 +1,31 @@
+/* my styles */
+*{
+    /* font-family: 'Tajawal', sans-serif !important; */
+    letter-spacing: 0px !important;
+}
+.overlay-silder{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    z-index: 10;
+}
+h1,h3,h4,h5,h6,p,a,span{
+    font-size: 1.2em !important;
+}
+.op7 a{
+    color: #6F6F6F !important;
+    font-weight: 400;
+}
+.op7 a:hover{
+    color: #6F6F6F !important;
+
+}
+.overlay-black-slider{
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2222;
+}
+.slider-details{
+    position: relative;
+    z-index: 22222;
+}
+.card-height{
+    height: 150px !important;
+}

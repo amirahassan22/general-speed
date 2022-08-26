@@ -125,8 +125,8 @@ body, html {
      -moz-osx-font-smoothing: grayscale;
 }
 body {
+    font-family: 'Tajawal', sans-serif !important;
     background-color: #fff;
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color:#6f6f6f;
@@ -253,7 +253,7 @@ table {
     color: #fff;
 }
 .op{
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
 }
 .dis-block{
 	display:block;
@@ -270,7 +270,7 @@ h4,
 h5,
 h6 {
     color: #232323;
-    font-family: "Poppins",sans-serif;
+    /* font-family: "Poppins",sans-serif; */
 }
 h1 a,
 h2 a,
@@ -1295,7 +1295,7 @@ dl dd {
     background-color: transparent;
 }
 .bg-primary {
-    background-color: ;
+    /* background-color: ; */
 }
 .bg-white {
     background-color: #FFF;
@@ -2209,7 +2209,7 @@ textarea.form-control{
 /*radio & checkbox*/
 input[type=checkbox],
 input[type=radio] {
-    display: ;
+    /* display: ; */
     opacity: 0;
     margin-left: 1px !important;
 	position: absolute;
@@ -3624,7 +3624,7 @@ blockquote:before {
         float: none;
 		display:block;
 		width:100%;
-		font-family: Roboto;
+		/* font-family: Roboto; */
 	    padding: 0 25px 0 25px;	
     }
     .header-nav .nav > li .sub-menu > li,
@@ -5117,7 +5117,7 @@ blockquote:before {
     position: relative;
 }
 .date-style-3 .post-date {
-    font-family: oswald;
+    /* font-family: oswald; */
     text-transform: uppercase;
     position: absolute;
     padding: 8px 15px;
@@ -5504,7 +5504,7 @@ blockquote:before {
     color: #707070;
     color: rgba(51, 51, 51, 0.7);
     display: block;
-    font-family: "Noto Sans", sans-serif;
+    /* font-family: "Noto Sans", sans-serif; */
     font-size: 12px;
     font-size: 1.2rem;
     line-height: 1.5;
@@ -5746,7 +5746,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     border: 1px solid #e1e6eb;
     text-align: center;
     border-radius: 4px 0 0 4px;
-    -webkit- border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
 }
 .comments-area p.comment-form-author:before {
     content: "\e602";
@@ -6405,7 +6405,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 .widget-testimonial .testimonial-position{
 	text-transform:uppercase;
-	color:#888q;
+	color:#888;
 	font-size:12px;
 	font-style: inherit;
 }
@@ -7525,7 +7525,7 @@ a,
 .site-button-link.yellow:hover,
 .site-button-link.yellow:active,
 .site-button-link.yellow:focus {
-    color: ##d4af19;
+    color: #d4af19;
 }
 /* purple */
 
@@ -9651,7 +9651,7 @@ ul[class*="list-"]{
 .testimonial-9 .testimonial-position,
 .testimonial-10 .testimonial-position{
 	text-transform:uppercase;
-	color:#888q;
+	color:#888;
 	font-size:12px;
 	font-style: inherit;
 }
@@ -10227,7 +10227,7 @@ ul[class*="list-"]{
 .overlay-primary-middle:after,
 .overlay-primary-dark:after,
 .overlay-primary:after {
-    background: ;
+    /* background: ; */
 }
 .overlay-black-light:after {
     opacity: 0.3;
@@ -10955,7 +10955,7 @@ ul[class*="list-"]{
 .content-box-head{
 	border-radius: 50px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-    font-family: "Open Sans",sans-serif;
+    /* font-family: "Open Sans",sans-serif; */
     margin-bottom: 20px;
     margin-top: -46px;
     padding: 12px 0;
@@ -12619,7 +12619,7 @@ ol.commentlist li .star-rating {
 	opacity: 0.4;
 }
 .item-price {
-	font-family: open sans;
+	/* font-family: open sans; */
     font-size: 18px;
     font-weight: 600;
 }
@@ -13333,7 +13333,7 @@ ol.commentlist li .star-rating {
 }
 .shop-categories .acod-head a.collapsed:after,
 .shop-categories .acod-head a:after{
-	font-family: open sans;
+	/* font-family: open sans; */
 	font-weight: 700;
 	color:#000;
 	font-size: 18px;
@@ -13923,7 +13923,7 @@ ol.commentlist li .star-rating {
     margin-bottom: 20px;
 }
 .our-story h2.title span{
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
     font-style: italic;
 }
 .our-story h4.title{
@@ -14472,3 +14472,6 @@ input[type="radio"] + label:hover:before{
 .dlab-tabs.border-top .nav-tabs > li.active > a{
 	border-color:var(--color-primary);
 }
+
+
+
